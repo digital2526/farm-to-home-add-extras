@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "4eeb8f5d562df7047476bd288d0d6cb8"
+name = "Farm to Home Add Extras"
+application_url = "https://p01--recharge-add-extras--yj8tfgj8dpk9.code.run"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2026-07"
+
+[access.admin]
+direct_api_mode = "online"
+embedded_app_direct_api_access = true
+
+[access_scopes]
+scopes = "read_orders,read_customers"
+optional_scopes = []
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [ ]
+
+[app_proxy]
+url = "https://p01--recharge-add-extras--yj8tfgj8dpk9.code.run"
+subpath = "add-extras"
+prefix = "apps"
