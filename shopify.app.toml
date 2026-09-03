@@ -16,7 +16,7 @@ direct_api_mode = "online"
 embedded_app_direct_api_access = true
 
 [access_scopes]
-scopes = "read_orders,read_customers"
+scopes = "read_orders,read_customers,write_app_proxy"
 optional_scopes = []
 use_legacy_install_flow = false
 
